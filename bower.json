@@ -1,0 +1,8 @@
+{
+  "name": "virtuagora.github.iol",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "bootstrap": "latest"
+  }
+}

@@ -1,0 +1,14 @@
+.background-layers(@top, @bottom) {
+  background: url(@top), url(@bottom);
+  background-position: top center, top center;
+  background-attachment: fixed, fixed;
+  background-repeat: repeat, repeat;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+}
+
+/////// Use it like this. don't forget the single quotes ///////
+
+//.background-layers('the-top-image.png', 'the-bottom-image.jpg');
