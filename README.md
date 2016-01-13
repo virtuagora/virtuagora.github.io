@@ -1,6 +1,6 @@
-# Virtuagora - Web Presentation
+# Virtuágora - Web Presentation
 
-Currently the website is under construction. 
+Currently the website presentation is under construction. 
 We use this repository to push the files and deploy the presentation of our project, to the open source community, thanks to Github Pages.
 
 If you need more help, contact us:
