@@ -1,4 +1,4 @@
-# Virtuagora - Web
+# Virtuagora - Web Presentation
 
 Currently the website is under construction. 
 We use this repository to push the files and deploy the presentation of our project, to the open source community, thanks to Github Pages.
