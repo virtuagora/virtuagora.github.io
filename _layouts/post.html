@@ -1,0 +1,64 @@
+---
+layout: default-post
+---
+<div id="post">
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="fondo-titulo">
+            <div class="container">
+                <div class="row center-align">
+                    <div class="col s12">
+                        <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+                        <!--                <div class="card-panel indigo darken-1 white-text">-->
+                        <p class="post-meta white-text"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • Posted by <img src="https://github.com/{{ page.githubuser }}.png?size=50" alt="" class="autor-img circle responsive-img">
+                            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • <a class="white-text" href="https://github.com/{{ page.githubuser }}"><i class="zmdi zmdi-github zmdi-hc-lg"></i></a></p>
+                        <!--                </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l8 offset-l2">
+                    <div class="post-content" itemprop="articleBody">
+                        http://virtuagora.org{{ page.id }} {{ content }}
+                    </div>
+                    <div class="divider"></div>
+                    <br>
+                    <a href="/blog" class="btn-large waves-effect waves-light btn-floating left"><i class="zmdi zmdi-arrow-left"></i></a>
+                    <a href="#" class="btn-large waves-effect waves-light btn-floating right"><i class="zmdi zmdi-long-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l8 offset-l2">
+                    {% if page.comments %}
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+                        var disqus_config = function () {
+                            this.page.url = 'https://www.virtuagora.org/blog/{{ page.id }}';  // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            var disqus_developer = 1; // Comment out when the site is live
+                        };
+
+                        (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+                            var d = document, s = d.createElement('script');
+
+                            s.src = '//virtuagora.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

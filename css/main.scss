@@ -1,0 +1,28 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,300italic,300,100,100italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+
+@import "materialize";
+@import "custom-variables";
+@import "../fonts/material-icons.css";
+@import "material-design-iconic-font.css";
+@import "slick.css";
+
+//Custom Overrides over Materializecss
+@import "global";
+
+//Custom Styles
+@import "index";
+@import "post";
+@import "404";
+@import "search";
+@import "footer";
+
+// Para tonterias y cosas locas que no hay que contarles a nadie
+@import "auxiliars";
+

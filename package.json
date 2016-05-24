@@ -1,20 +1,27 @@
 {
   "name": "virtuagora.github.io",
-  "version": "0.1.0",
-  "description": "Install this in. In your terminal type >>npm install",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest"
-  },
-  "dependencies": {
-    "bower": "latest"
-  },
+  "version": "1.0.0",
+  "description": "npm dependencies for virtuagora.github.io",
+  "main": "_site/index.html",
   "scripts": {
-    "postinstall": "bower install"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/virtuagora/virtuagora.github.io.git"
+  },
+  "author": "Virtuagora",
+  "bugs": {
+    "url": "https://github.com/virtuagora/virtuagora.github.io/issues"
+  },
+  "license": "ISC",
+  "homepage": "http://virtuagora.github.io/",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^0.4.7"
   }
 }

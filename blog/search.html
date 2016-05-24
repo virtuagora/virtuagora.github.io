@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /:path/:basename/
+---
+<br>
+<div class="container">
+    <form action="get" id="site_search" class="col s12">
+        <div class="row">
+            <div class="input-field col s12 m10 offset-m1 l8 offset-l2">
+                <i class="material-icons prefix">search</i>
+                <input id="search_box" type="text" >
+                <input type="submit" value="search" hidden>
+                <label for="search_box">Buscar en nuestros archivos <i class="zmdi zmdi-storage"></i></label>
+            </div>
+        </div>
+    </form>
+    <!--
+<form action="get" id="site_search">
+<label for="search_box">Search</label><input type="text" id="search_box">
+<input type="submit" value="search">
+</form>
+-->
+    <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+            <div class="divider"></div>
+            <ul id="search_results"></ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,94 @@
+
+#logo-top{
+    background-image: url('../img/bg3.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+.logo-show{
+    height:90vh;
+    img.logo{
+        padding: 20px;
+    }
+}
+
+#why{
+    padding: 50px 0;
+    margin-top: -100px;
+    background-color: #FFF;
+    border-radius: 5px;
+    svg{
+        height: 150px;
+        fill: $primary-color-dark;
+    }
+}
+#showcase{
+    padding: 20px 0 50px;
+    //    background-color: $primary-color;
+}
+
+.parallax-container{
+    height: 300px;
+}
+
+#contenidos-showcase, #contenidos-showcase2{
+    padding: 30px 0;
+    color: #FFF;
+    background-color: $secondary-color;
+    svg{
+        height: 100px;
+        width: 100px;
+        fill: #FFF;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+
+#contenidos-showcase{
+    background-image: url('../img/bg4.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+#contenidos-showcase2{
+    background-image: url('../img/bg5.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+#examples-showcase{
+    h3{
+        text-shadow: 1px 1px 1px #000;
+    }
+    .card{
+        background-image: url('../img/bg3.png');
+//        background-attachment: fixed;
+        background-repeat: repeat;
+        background-blend-mode: lighten;
+    }
+    img{
+        background-color: $primary-color;
+        background-blend-mode: overlay;
+    }
+    .slider .indicators .indicator-item.active{
+        background-color: $primary-color;
+    }
+}
+
+#github-data{
+    padding: 15px 0;
+    p{margin:8px 0;}
+    .row{margin:0;}
+}
+#github-fetch{
+    margin:0;
+}
+
+#footer-img{
+    margin-top: 15px;
+    padding: 0 10px;
+    img{
+        margin-bottom: -10px;
+        width: 300px;
+    }
+    }

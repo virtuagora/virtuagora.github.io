@@ -1,0 +1,81 @@
+<!--
+<footer class="site-footer">
+
+<div class="wrapper">
+
+<h2 class="footer-heading">{{ site.title }}</h2>
+
+<div class="footer-col-wrapper">
+<div class="footer-col footer-col-1">
+<ul class="contact-list">
+<li>{{ site.title }}</li>
+<li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+</ul>
+</div>
+
+<div class="footer-col footer-col-2">
+<ul class="social-media-list">
+{% if site.github_username %}
+<li>
+{% include icon-github.html username=site.github_username %}
+</li>
+{% endif %}
+
+{% if site.twitter_username %}
+<li>
+{% include icon-twitter.html username=site.twitter_username %}
+</li>
+{% endif %}
+</ul>
+</div>
+
+<div class="footer-col footer-col-3">
+<p>{{ site.description }}</p>
+</div>
+</div>
+
+</div>
+
+</footer>
+-->
+<div id="footer-img" class="right-align">
+    <img src="/img/people.png" class="responsive-img" alt="">
+</div>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l4 s12">
+                <h5 class="white-text">Unite a nuestra comunidad</h5>
+                <p class="grey-text text-lighten-4">Como mencionamos, <strong>Virtuagora</strong> es un proyecto que queremos que se mantenga abierto, libre y gratuito. Para eso tu colaboracion es importante. Colabora con nosotros de distintas formas. <i><a class="grey-text text-lighten-4" href="#">Enterate como</a></i> </p>
+
+            </div>
+            <div class="col l4 offset-l4 s12 white-text">
+                <h5 class="page-heading">Ultimos Posts</h5>
+                <ul class="post-list">
+                    {% for post in site.posts %}
+                    <li>
+                        <h6>
+                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                            <br>
+                            <small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small>
+                        </h6>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="zmdi zmdi-rss orange-text"></i></a> Subscribe</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <strong>Virtuagora</strong> is under <a href="https://opensource.org/licenses/MIT">MIT License</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Find out more!</a>
+
+        </div>
+    </div>
+    <div class="credit">
+        <div class="container">
+            <a class="grey-text text-lighten-4 right" href="https://github.com/guillecro">Design by <i class="zmdi zmdi-github zmdi-hc-lg"></i> guillecro</a>
+        </div>
+    </div>
+</footer>
