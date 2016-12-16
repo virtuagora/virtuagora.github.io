@@ -7,11 +7,9 @@
 
 # Site settings
 title: Virtuágora - Plataforma Web de Participación ciudadana
-email: your-email@domain.com
+#email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Plataforma web de participación ciudadana, diseñado para complementar el proceso democrático de cualquier ámbito afín. Software libre, abierto y gratuito.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://virtuagora.org" # the base hostname & protocol for your site
 github_username:  virtuagora
