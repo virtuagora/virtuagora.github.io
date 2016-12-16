@@ -1,15 +1,14 @@
 ---
-published: false
 layout: post
-date: {}
+title: Virtuagora y las Bases para la Reforma de la provincia de Santa Fe
+date: 2016-12-16 18:00:00 -0300
+permalink: /blog/:year/:month/:day/:title/
+
 author: Guilermo Croppi
 githubuser: guillecro
-categories: jekyll update
-tags:
-  - virtuagora
-  - bases para la reforma
-  - santa fe
-  - participacion ciudadana
+
+categories: Noticias
+tags: [Virtuagora, Santa fe, Bases para la reforma, Gobierno abierto, SantaLAB]
 comments: true
 ---
 ## Virtuagora y las Bases para la Reforma de la provincia de Santa Fe
