@@ -14,7 +14,7 @@ comments: true
 
 Durante los últimos meses hemos estado trabajando en proyectos del Gobierno de Santa Fe y entre ellos hemos colaborado en implementar Virtuágora en la plataforma digital de participación "Bases para la Reforma".
 
-El 15 de Diciembre a las 18 hs. en la Sala Rodolfo Walsh del Museo Ángel Gallardo (San Lorenzo 1949, piso 1, Rosario), el gobernador de la provincia de Santa Fe **Miguel Lifschitz** presentaró la plataforma digital de participación **["Bases para la Reforma"](http://basesparalareforma.digital/)**
+El 15 de Diciembre a las 18 hs. en la Sala Rodolfo Walsh del Museo Ángel Gallardo, el gobernador de la provincia de Santa Fe **Miguel Lifschitz** presentó la plataforma digital de participación **["Bases para la Reforma"](http://basesparalareforma.digital/)**
 
 El espíritu es _"ser parte del proceso de diálogo ciudadano que busca sumar las voces de todos a un debate amplio que nos conduzca a una nueva constitución, que pueda ser un motor para el desarrollo y progreso de la provincia."_
 
