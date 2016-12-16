@@ -6,10 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Virtuágora - Plataforma Web de Participación ciudadana
+title: Virtuágora - Plataforma Web de Participación Ciudadana
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Plataforma web de participación ciudadana, diseñado para complementar el proceso democrático de cualquier ámbito afín. Software libre, abierto y gratuito.
+  Plataforma web de participación ciudadana, diseñado para complementar el
+  proceso democrático de cualquier ámbito afín. Software libre, abierto y gratuito.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://virtuagora.org" # the base hostname & protocol for your site
 github_username:  virtuagora
