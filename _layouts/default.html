@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body>
-        {% include header.html %}
-        <main>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <div class="container-fluid">
+      <div class="columns">
+          <div class="column is-6 is-offset-3">
+            {% include header.html %}
+
             {{ content }}
-        </main>
-        {% include footer.html %}
-        <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
-        <script src="{{ "/js/materialize.min.js" | prepend: site.baseurl }}"></script>
-        <script src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+
+            {% include footer.html %}
+
+          </div>
+        </div>
+
+    </div>
     </body>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </html>

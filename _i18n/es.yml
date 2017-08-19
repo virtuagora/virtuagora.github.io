@@ -1,0 +1,10 @@
+global:
+  english: English
+  spanish: Español
+  description: Plataforma web de participación ciudadana. Potenciá de forma innovadora tus instancias participativas. Una herramienta para potenciar la colaboracion de todos. Open Source, Libre, Abierta, Gratuita. Y sobre todo, hecha con amor <3
+langs:
+  en: English
+  es: Español
+titles:
+  home: Inicio
+  about: Acerca de

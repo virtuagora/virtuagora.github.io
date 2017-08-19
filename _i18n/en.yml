@@ -1,0 +1,10 @@
+global:
+  english: English
+  spanish: Spanish
+  description: Free open-Source web plataform for citizen collaboration. Potentiates innovation in your instances of participation. A solution that maximizes everyone's collabotarion. Free, open, Oh! And of course, made with love <3
+langs:
+  en: English
+  es: Spanish
+titles:
+  home: Home
+  about: About us

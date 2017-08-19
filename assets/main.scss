@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import 'variables';
+@import "../node_modules/bulma/bulma.sass";
+@import "emoji.min.css";
+@import "font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+html {
+    font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.is-ubuntu{
+    font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.is-lato{
+  font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.is-100 {
+    font-weight: 100;
+}
+.is-200 {
+    font-weight: 200;
+}
+.is-300 {
+    font-weight: 300;
+}
+.is-400 {
+    font-weight: 400;
+}
+.is-500 {
+    font-weight: 500;
+}
+.is-600 {
+    font-weight: 600;
+}
+.is-700 {
+    font-weight: 700;
+}
+.is-800 {
+    font-weight: 800;
+}
+.is-900 {
+    font-weight: 900;
+} 
+
+.virtuagora-logo{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.road2v-logo{
+    width: 200px;
+    margin: 0 auto 10px;
+}
