@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include es/head.html %}
+  <body>
+    <div class="container-fluid">
+      <div class="columns">
+          <div class="column is-6 is-offset-3">
+            {% include es/header.html %}
+
+            {{ content }}
+
+            {% include es/footer.html %}
+
+          </div>
+        </div>
+
+    </div>
+    </body>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</html>

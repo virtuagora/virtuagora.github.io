@@ -4,11 +4,11 @@
             <ul>
                 {% assign default_paths = site.pages | map: "path" %}
                 {% assign page_paths = site.header_pages | default: default_paths %}
-              <li><a href="{{ "/" | relative_url }}">Home</a></li>
+              <li><a href="{{ "es/" | relative_url }}">Inicio</a></li>
               {% if page_paths %}
               {% for path in page_paths %}
               {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.title and my_page.language == 'en' %}
+              {% if my_page.title and my_page.language == 'es' %}
               <li><a href="{{ my_page.url | relative_url }}">{{my_page.title}}</a></li>
               {% endif %}
             {% endfor %}
@@ -16,7 +16,7 @@
               <li><a href="https://twitter.com/virtuagora"><i class="fa fa-twitter"></i></a></li>
               <li><a href="https://facebook.com/virtuagora"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://github.com/virtuagora"><i class="fa fa-github-alt"></i></a></li>
-              <li><a href="{{ site.baseurl_root }}/es"><i class="fa fa-language" aria-hidden="true"></i></span>&nbsp;&nbsp;Español</a></li>
+              <li><a href="{{ "/" | relative_url }}"><i class="fa fa-language" aria-hidden="true"></i></span>&nbsp;&nbsp;English</a></li>
             </ul>
 
           </nav>

@@ -213,7 +213,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 155)
+  github-pages
   jekyll-feed (~> 0.6)
   jekyll-multiple-languages-plugin
   json

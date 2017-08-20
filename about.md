@@ -1,7 +1,8 @@
 ---
 layout: page
-title: titles.about
+title: About
 permalink: /about/
+language: en
 ---
 
-{% translate_file about.md %}
+{% include about.md %}
