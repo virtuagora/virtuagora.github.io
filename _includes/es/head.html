@@ -8,6 +8,18 @@
     {% else %}
     {{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description_es | strip_html | normalize_whitespace | escape }}">
+
+  <!-- Social Media Metatags! -->
+  <meta property="og:title" content="Virtuágora, plataforma web para la participación ciudadana">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description_es | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:image" content="{{ '/assets/img/social.png' | prepend: relative_url }}">
+  <meta property="og:url" content="http://virtuagora.github.io">
+  <meta name="twitter:title" content="Virtuágora, plataforma web para la participación ciudadana">
+  <meta name="twitter:description" content=" {{ page.excerpt | default: site.description_es | strip_html | normalize_whitespace | escape }}">
+  <meta name="twitter:image" content="{{ '/assets/img/social.png' | prepend: relative_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+
   <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel='shortcut icon' type='image/x-icon' href="{{ "/assets/favicon.ico" | prepend: relative_url }}"" />
