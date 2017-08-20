@@ -6,3 +6,4 @@ _site
 .jekyll-metadata
 /bower_components/*
 /node_modules/*
+!/node_modules/bulma
